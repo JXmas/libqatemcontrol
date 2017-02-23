@@ -1,0 +1,1 @@
+install(FILES setenv_qatemcontrol.sh DESTINATION scripts)

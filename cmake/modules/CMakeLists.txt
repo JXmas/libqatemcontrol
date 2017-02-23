@@ -1,0 +1,1 @@
+install(FILES FindQAtemControl.cmake DESTINATION cmake/modules)

@@ -16,3 +16,7 @@
 *.pro.user*
 Makefile
 moc_*
+
+/build
+/dist
+*.kdev4
