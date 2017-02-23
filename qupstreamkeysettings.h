@@ -20,7 +20,7 @@ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "qatemtypes.h"
 
-#include <QColor>
+#include <QtGui/QColor>
 
 struct QUpstreamKeySettings
 {

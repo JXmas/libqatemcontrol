@@ -17,7 +17,7 @@ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "qatemmixeffect.h"
 
-#include <QColor>
+#include <QtGui/QColor>
 
 QAtemMixEffect::QAtemMixEffect(quint8 id, QAtemConnection *parent) :
     QObject(parent), m_id(id), m_atemConnection(parent)

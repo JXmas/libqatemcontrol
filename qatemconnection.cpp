@@ -23,8 +23,8 @@ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 #include <QDebug>
 #include <QTimer>
 #include <QHostAddress>
-#include <QImage>
-#include <QPainter>
+#include <QtGui/QImage>
+#include <QtGui/QPainter>
 #include <QCryptographicHash>
 #include <QThread>
 

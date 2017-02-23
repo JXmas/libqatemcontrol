@@ -22,7 +22,7 @@ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 #include <QString>
 #include <QPointF>
 #include <QSizeF>
-#include <QColor>
+#include <QtGui/QColor>
 
 namespace QAtem
 {
