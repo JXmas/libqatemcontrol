@@ -504,6 +504,7 @@ signals:
     void getLockStateChanged(quint8 storeId, bool state);
 
     void dataTransferFinished(quint16 transferId);
+    void dataTransferError(quint16 transferId);
 
     void topologyChanged(const QAtem::Topology &topology);
 

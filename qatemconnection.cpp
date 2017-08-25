@@ -1551,6 +1551,11 @@ void QAtemConnection::acceptData()
 void QAtemConnection::onFTDE(const QByteArray& payload)
 {
     qWarning() << "Data transfer error:" << payload.toHex();
+    
+    QAtem::U16_U8 id;
+    id.u8[1] = (quint8)payload.at(6);
+    id.u8[0] = (quint8)payload.at(7);
+    emit dataTransferError(id.u16);
 }
 
 QByteArray QAtemConnection::prepImageForSwitcher(QImage &image, const int width, const int height)
